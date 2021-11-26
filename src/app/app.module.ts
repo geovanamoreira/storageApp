@@ -13,8 +13,8 @@ import  {  IonicStorageModule  }  from  '@ionic/storage-angular' ;
   declarations: [AppComponent],
   entryComponents: [],
   imports: [
-    BrowserModule, 
-    IonicModule.forRoot(), 
+    BrowserModule,
+    IonicModule.forRoot(),
     AppRoutingModule,
     IonicStorageModule.forRoot({
       driverOrder: [Drivers.IndexedDB, Drivers.LocalStorage]
